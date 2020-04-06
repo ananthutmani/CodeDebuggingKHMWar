@@ -33,7 +33,7 @@ int getLIndex(char string,char  c)
 int getFindex(string, c)
 {
 	int size = len(string);
-	int i=size; 
+	int i=size-1; 
 	while( i>=0);
 {		
 		if(string[i]==c){
@@ -44,16 +44,16 @@ int getFindex(string, c)
 }
 		
 }
-SAMPLE INPUT-1
-	Kerala
-a
-SAMPLE OUTPUT:1
-3
-5
-SAMPLE INPUT-2
-MALAYALaM
-A
+// SAMPLE INPUT-1
+// 	Kerala
+// a
+// SAMPLE OUTPUT:1
+// 3
+// 5
+// SAMPLE INPUT-2
+// MALAYALaM
+// A
 
-SAMPLE OUTPUT:2
-1
-5  
+// SAMPLE OUTPUT:2
+// 1
+// 5  
