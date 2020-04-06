@@ -9,7 +9,7 @@ cin<<num;
 cin<<choice;
 switch(choice)
 {
-case a:{ 
+case a: 
 n=num;
 while(n!=0)
 {
@@ -23,18 +23,19 @@ r=n%10;
 a=a+pow(r,d);
 n=n/10;
 }
-cout<<a<<"\n";}  
-case p:{ 
+cout<<a<<"\n"; 
+break; 
+case p:
 n=num;
 while(n!=0)
 {
 r=n%10;
-p==p+10+r;
+p=p*10+r;
 n=n/10;
 }
 cout<<p<<"\n";
 continue;
-}}
+}
 }
 
 Sample input-1
